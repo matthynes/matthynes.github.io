@@ -1,0 +1,32 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus: newfoundcode
+google_analytics: UA-65865600-1
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: New Found Code
+
+description:
+author:
+  name: Matt Hynes
+  email: matthynesdev@gmail.com
+  github: matthynes
+  twitter: creatiros
+  bio: Freelance web developer, coffee lover, cat enthusiast.
+  email_md5: 369d8c2d3089e83f50ebacdf7cf858d9
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+about_path: about.html
+
+BASE_PATH: /matthynes.github.io
