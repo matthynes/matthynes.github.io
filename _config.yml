@@ -29,4 +29,4 @@ categories_path: categories.html
 tags_path: tags.html
 about_path: about.html
 
-BASE_PATH: /matthynes.github.io
+BASE_PATH: 
